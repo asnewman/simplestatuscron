@@ -1,7 +1,5 @@
 name: 5-min-cron
-on:
-  schedule:
-    - cron: '*/5 * * * *'
+on: push
 jobs:
   cron:
     runs-on: ubuntu-latest
