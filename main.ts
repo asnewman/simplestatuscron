@@ -1,0 +1,1 @@
+fetch("https://simplestat.us/api/check", {method: "POST"})
